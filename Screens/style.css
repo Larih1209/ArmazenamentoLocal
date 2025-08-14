@@ -1,0 +1,21 @@
+
+/* Faz com que o body ocupe toda a altura da tela e remove margens padrão */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+ 
+  /* Centraliza todos os elementos no centro da tela (vertical e horizontal) */
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza na vertical */
+    align-items: center;     /* Centraliza na horizontal */
+    min-height: 100vh;
+    font-family: Arial, sans-serif; /* Fonte */
+  }
+ 
+  /* Dá espaço abaixo do título principal */
+  h1 {
+    margin-bottom: 20px;
+  }

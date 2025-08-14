@@ -4,16 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login LocalStorage</title>
+    <!-- CSS para centralizar e estilizar -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Login</h1>
 
-    <!-- Campo para input do nome do usuario-->
-     <input type="text" id="nome" placeholder="Digite seu nome de usúario">
 
-     <!-- Botão para chamar a função de entrar -->
-      <button onclick="entrar()">Entrar</button>
+    <!-- Campo para nome -->
+    <input type="text" id="nome" placeholder="Digite seu nome">
+    <br><br>
 
-      <script src="../index.JS"></script>
+
+    <!-- Campo para cor favorita -->
+    <input type="text" id="cor" placeholder="Digite sua cor favorita (ex: red ou #ff0000)">
+    <br><br>
+
+
+    <!-- Campo para idade -->
+    <input type="number" id="idade" placeholder="Digite sua idade">
+    <br><br>
+
+
+    <!-- Campo para texto extra -->
+    <input type="text" id="textoExtra" placeholder="Digite algo (ex: hobby)">
+    <br><br>
+    <!-- Botão de contador -->
+    <button id="botaoContador">Clique aqui</button>
+
+
+    <!-- Botão para entrar -->
+    <button onclick="entrar()">Entrar</button>
+
+
+    <!-- Importa o JS -->
+    <script src="../index.js"></script>
 </body>
 </html>
