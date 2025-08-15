@@ -3,41 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login LocalStorage</title>
-    <!-- CSS para centralizar e estilizar -->
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Login</h1>
 
+    <input type="text" id="nome" placeholder="Digite seu nome"><br><br>
+    <input type="password" id="senha" placeholder="Digite sua senha"><br><br>
+    <input type="text" id="cor" placeholder="Digite sua cor favorita (ex: red ou #ff0000)"><br><br>
+    <input type="number" id="idade" placeholder="Digite sua idade"><br><br>
+    <input type="text" id="textoExtra" placeholder="Digite algo (ex: hobby)"><br><br>
+    <input type="url" id="link" placeholder="Digite um link (ex: https://site.com)"><br><br>
 
-    <!-- Campo para nome -->
-    <input type="text" id="nome" placeholder="Digite seu nome">
-    <br><br>
+    <!-- Novo campo para lista de compras -->
+    <input type="text" id="listaCompras" placeholder="Digite sua lista de compras (separe por vírgula)"><br><br>
 
+    <button id="botaoContador">Clique aqui</button><br><br>
 
-    <!-- Campo para cor favorita -->
-    <input type="text" id="cor" placeholder="Digite sua cor favorita (ex: red ou #ff0000)">
-    <br><br>
-
-
-    <!-- Campo para idade -->
-    <input type="number" id="idade" placeholder="Digite sua idade">
-    <br><br>
-
-
-    <!-- Campo para texto extra -->
-    <input type="text" id="textoExtra" placeholder="Digite algo (ex: hobby)">
-    <br><br>
-    <!-- Botão de contador -->
-    <button id="botaoContador">Clique aqui</button>
-
-
-    <!-- Botão para entrar -->
     <button onclick="entrar()">Entrar</button>
 
-
-    <!-- Importa o JS -->
     <script src="../index.js"></script>
 </body>
 </html>

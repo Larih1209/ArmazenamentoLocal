@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <!-- CSS para centralizar -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Mensagem de boas-vindas -->
     <h1 id="Mensagem"></h1>
-    <!-- Idade -->
     <h2 id="idadeTexto"></h2>
-    <!-- Texto extra -->
     <p id="textoExtraMostrado"></p>
 
-    <br>
     <p id="contador"></p>
+    <p id="ultimaVisita"></p>
+
+    <!-- Exibe lista de compras -->
+    <h3>Sua Lista de Compras:</h3>
+    <ul id="listaComprasMostrada"></ul>
+
+    <button id="abrirLink">Abrir link salvo</button><br>
+    <button onclick="window.location.href='senha.html'">Ver senha salva</button><br>
+    <button id="apagarLista">Apagar Lista de Compras</button>
 
     <br>
-    <!-- Botão para sair -->
     <button onclick="sair()">Sair</button>
 
-    <!-- Importa o JS -->
     <script src="../index.js"></script>
 </body>
 </html>
